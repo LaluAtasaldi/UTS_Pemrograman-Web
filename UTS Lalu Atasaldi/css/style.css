@@ -1,0 +1,304 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: arial;
+	text-align: center;
+
+}
+
+
+.bg-1{
+	background-color: #1E90FF;
+	
+}
+
+.container{
+	width: 1200px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.perataan{
+	display: flex;
+}
+
+.box-1a{
+	width: 500px;
+	background-color: white;
+	margin: 10px;
+	margin-left: 20px;
+	padding: 10px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+
+.box-1b{
+	width: 700px;
+	background-color: white ;
+	margin: 5px;
+	margin-left: 55px;
+	padding: 20px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+
+.box-2{
+	width: 1200px;
+	background-color: white;
+	text-align: justify;
+}
+
+.box-2a{
+	width: 310px;
+	background-color: rgba(0, 110, 340, 0.3) ;
+	text-align: justify;
+	margin: 26px;
+	padding: 20px;	
+	filter:none;
+   -webkit-filter:grayscale(0%);
+}
+
+.box-2a:hover{
+	width: 310px;
+	background-color: rgba(0, 110, 340, 0.3) ;
+	text-align: justify;
+	margin: 26px;
+	padding: 20px;	
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+   filter: gray; 
+   -webkit-filter: grayscale(100%);
+}
+.tulismir{
+	font-family: mistral;
+	font-size: 18px;
+
+}
+
+
+.box-3a{
+	width: 550px;
+	background-color: white ;
+	margin: 5px;
+	padding: 20px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+.box-3b{
+	width: 650px;
+	background-color: white ;
+	margin: 5px;
+	padding: 20px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+.pesan{
+	font-size: 14px;
+}
+
+.tombol{
+  		background:#2C97DF;
+		color:white;
+		border-top:0;
+		border-left:0;
+		border-right:0;
+		border-bottom:5px solid #2A80B9;
+		padding:10px 20px;
+		text-decoration:none;
+		font-family:sans-serif;
+		font-size:11pt;
+		filter:none;
+   		-webkit-filter:grayscale(0%);
+		}
+.tombol:hover{
+  		background:#2C97DF;
+		color:white;
+		border-top:0;
+		border-left:0;
+		border-right:0;
+		border-bottom:5px solid #2A80B9;
+		padding:10px 20px;
+		text-decoration:none;
+		font-family:sans-serif;
+		font-size:11pt;
+		filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  		filter: gray; 
+  		-webkit-filter: grayscale(100%);
+		}
+
+.box-4a{
+	width: 800px;
+	background-color: white ;
+	margin: 5px;
+	padding: 20px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+.box-4b{
+	width: 300px;
+	background-color: white ;
+	margin: 5px;
+	padding: 10px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+.box-4ain{
+	width: 150px;
+	background-color: rgba(0, 110, 340, 0.3);
+	margin: 15px;
+	padding: 10px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+.tabel{
+	text-align: center;
+	
+	/*text-transform: uppercase;*/
+	/*font-weight: 200;*/
+}
+.tabel:hover{
+	text-align: center;
+	color: #1E90FF;
+	background-color: white;
+	/*text-transform: uppercase;*/
+	/*font-weight: 200;*/
+}
+
+.blue{
+	color: #1E90FF;
+	filter:none;
+   -webkit-filter:grayscale(0%);
+	}
+.blue:hover{
+	color: #1E90FF;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+   filter: gray; 
+   -webkit-filter: grayscale(100%);
+	}
+.white{
+	color: white;
+	filter:none;
+   -webkit-filter:grayscale(0%);
+	}
+
+
+
+.box-5{
+	width: 600px;
+	font-size: 16px;
+	font-family: calibri;
+	background-color: white ;
+	margin: 5px;
+	padding: 20px;
+	padding-left: 50px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+
+/*pilihan head web*/
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li{
+
+
+    background-color: black;
+    opacity: .8;
+
+    cursor: pointer;
+    text-align: center;
+
+}
+
+span{
+    font-family: arial ;
+    margin-right: 15px;
+}
+
+ul li{
+ 
+	float: right;
+    width: 120PX;
+    height: 30PX;
+    opacity: .8;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    background: #1E90FF;
+    border-top:5px solid black;
+		border-left:0px ;
+		border-right:0px ;
+		border-bottom:0px ;
+
+}
+
+ul li:hover{
+    float: right;
+    width: 120PX;
+    height: 30PX;
+    opacity: .8;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    background: black;
+    	border-top:5px solid black;
+		border-left:0px ;
+		border-right:0px ;
+		border-bottom:0px ;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+
+
+
+
+
+.poto{
+
+	margin: 0 auto;
+	text-align: center;
+	filter:none;
+   -webkit-filter:grayscale(0%);
+	
+}
+
+.poto:hover{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+   filter: gray; 
+   -webkit-filter: grayscale(100%);
+}
+
+
+.poto-grs{
+	max-height: 40rem;
+	max-width: 40rem;
+	border: .3rem solid #1E90FF
+}
+.poto-grs:hover{
+	max-height: 40rem;
+	max-width: 40rem;
+	border: .3rem solid  rgba(0,0,0,.2)
+
+}
+.poto-kotak{
+	border-radius: 5% !important;
+}
